@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Workshop Booking**
 
 > This website is for coordinators to book a workshop(s), they can book a workshop based on instructors posts or can propose a workshop date based on their convenience.
@@ -18,3 +19,7 @@
     > Instructors can Accept, Reject or Delete workshops based on their preference, also they can postpone a workshop based on coordinators request.
 
 __NOTE__: Check docs/Getting_Started.md for more info.
+=======
+# Workshop-Booking---Soham-Kandalkar
+IITB Screen task
+>>>>>>> 116d318e817859a8419e4f8bedb6cfb2e74f904e
