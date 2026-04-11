@@ -18,7 +18,6 @@ function GlassButton({ children, onClick }) {
 function Navbar({ user, setPage, handleLogout }) {
   return (
     <div className="flex justify-between items-center px-10 py-4 relative overflow-hidden bg-[#0f172a] border-b border-white/10 backdrop-blur-md">
-      
       {/* Background Texture */}
       <div className="absolute inset-0 opacity-20 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/black-paper.png')]"></div>
 
@@ -30,9 +29,7 @@ function Navbar({ user, setPage, handleLogout }) {
       </h1>
 
       <div className="flex items-center gap-4 relative z-10">
-        <GlassButton onClick={() => setPage("home")}>
-          Home
-        </GlassButton>
+        <GlassButton onClick={() => setPage("home")}>Home</GlassButton>
 
         <GlassButton onClick={() => setPage("workshops")}>
           Workshops
@@ -48,18 +45,16 @@ function Navbar({ user, setPage, handleLogout }) {
             <GlassButton onClick={handleLogout}>Logout</GlassButton>
           </>
         ) : (
-          <GlassButton onClick={() => setPage("login")}>
-            Login
-          </GlassButton>
+          <GlassButton onClick={() => setPage("login")}>Login</GlassButton>
         )}
       </div>
     </div>
   );
 }
 
-/* ---------- HERO ---------- */
+/* ---------- Main Content ---------- */
 
-function Hero({ setPage }) {
+function MainContent({ setPage }) {
   return (
     <div className="text-center mt-20 px-4">
       <p className="text-sm text-gray-400 mb-2">4.8 rating (200+ reviews)</p>
@@ -77,9 +72,7 @@ function Hero({ setPage }) {
           Explore Workshops
         </GlassButton>
 
-        <GlassButton>
-          Get Started Free
-        </GlassButton>
+        <GlassButton>Get Started Free</GlassButton>
       </div>
     </div>
   );
@@ -162,7 +155,7 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Navbar user={user} setPage={setPage} handleLogout={handleLogout} />
 
-      {page === "home" && <Hero setPage={setPage} />}
+      {page === "home" && <MainContent setPage={setPage} />}
       {page === "workshops" && (
         <WorkshopSection workshops={workshops} user={user} />
       )}
