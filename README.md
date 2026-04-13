@@ -56,6 +56,7 @@ Ans - the hardest part in this project was to get myself fimiliar with React Js 
 ### Visual Showcase :
 
 - Before
+  
   sign in page :
   <img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/5edbb12a-5f22-4a0e-b938-d883f41a2512" />
   Regsiter page :
@@ -64,6 +65,7 @@ Ans - the hardest part in this project was to get myself fimiliar with React Js 
   <img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/5250142d-705c-41ca-b3a7-201d54dd9b83" /> 
 
 - After
+  
   sign in page :
   <img width="967" height="778" alt="image" src="https://github.com/user-attachments/assets/5cc32f4d-4203-41e5-a984-040f67bb1350" />
   register page :
