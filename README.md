@@ -4,9 +4,13 @@
 Ans - I tried using a single color scheme so that the website looks consistent and uniform
       I created colored headers, section titles with a side color bar and colored table headers
       The colors used have meaning :
+      
           - Green for success
+          
           - Amber for pending
+          
           - Blue for actions
+          
           - indigo for details
   
 - How did you ensure responsiveness across
