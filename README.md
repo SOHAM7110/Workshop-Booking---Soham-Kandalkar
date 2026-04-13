@@ -7,6 +7,10 @@ Ans - I tried using a single color scheme so that the website looks consistent a
   
 - How did you ensure responsiveness across
   devices?
+
+Ans - the website adjusts well to diffrent screen sizes. The navbar changes into hamburger manue on           small screens using a media query, the tables scroll horizontally instead of breaking layout            (overflowX: auto), filter sidebar wraps and stacks vertically on smaller screens and 
+      profile grid automatically adjusts because it uses percentage-based widths.
+
 - What trade-offs did you make between the
   design and performance?
 - What was the most challenging part of the
