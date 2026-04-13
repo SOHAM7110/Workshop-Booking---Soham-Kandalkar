@@ -5,6 +5,23 @@ The goal was to enhance visual design, responsiveness, performance, and usabilit
 
 The core functionality of the original website was preserved while improving the overall user experience.
 
+### Setup Instruction :
+
+1. Download the project from GitHub:
+2. Make sure you have installed:
+Node.js (v14 or above recommended)
+npm (comes with Node.js)
+3. git clone <https://github.com/SOHAM7110/Workshop-Booking---Soham-Kandalkar.git>
+4. cd workshop_booking
+5. npm install
+6. npm start
+7. http://localhost:3000
+⚠️ Common Issues (Optional but helpful)
+If npm install fails → check Node version
+If port 3000 is busy → React will suggest another port
+If modules are missing → delete node_modules and run npm install again
+   
+
 ### Reasoning :
 
 - What design principles guided your
