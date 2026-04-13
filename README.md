@@ -5,6 +5,7 @@ The goal was to enhance visual design, responsiveness, performance, and usabilit
 
 The core functionality of the original website was preserved while improving the overall user experience.
 
+### Reasoning :
 
 - What design principles guided your
   improvements?
@@ -32,3 +33,54 @@ Ans - profile grid automatically adjusts because it uses percentage-based widths
 
 Ans - the hardest part in this project was to get myself fimiliar with React Js and how does it
       the whole react Js framework works with Django Framework. I had to watch a Tutorials from            Youtube and use gpt for fixing my code and get suggestions on areas of improvements
+
+### Features and Imporvements :
+
+- Modern and clean user interface
+- Improved navigation and readability
+- Mobile-first responsive design
+- Better visual hierarchy using colors and layout
+- Smooth hover interactions
+- Optimized performance (reduced unnecessary re-renders)
+- Horizontally scrollable tables for small screens
+
+
+### Tech Stack :
+
+- Tech Stack
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS (Inline Styling)
+
+### Visual Showcase :
+
+- Before
+  sign in page :
+  <img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/5edbb12a-5f22-4a0e-b938-d883f41a2512" />
+  Regsiter page :
+  <img width="1667" height="1015" alt="image" src="https://github.com/user-attachments/assets/8cbc9379-daa0-4d82-aa13-eff0ffca538f" />
+  Statistics page :
+  <img width="1912" height="1020" alt="image" src="https://github.com/user-attachments/assets/5250142d-705c-41ca-b3a7-201d54dd9b83" /> 
+
+- After
+  sign in page :
+  <img width="967" height="778" alt="image" src="https://github.com/user-attachments/assets/5cc32f4d-4203-41e5-a984-040f67bb1350" />
+  register page :
+  <img width="986" height="986" alt="image" src="https://github.com/user-attachments/assets/8e1306ff-8fc0-4cd8-ae6e-5ab5aa373293" />
+  Home page :
+  <img width="1906" height="1019" alt="image" src="https://github.com/user-attachments/assets/f3f3d9a5-142f-45cd-ba76-9dd5b958c004" />
+  Statistics Page :
+  <img width="826" height="486" alt="image" src="https://github.com/user-attachments/assets/db3d1d5e-0f48-40dd-809c-8d5db5a8f9e3" />
+
+### Live Demo :
+
+
+### Performance Considerations
+Reduced unnecessary React re-renders
+Used lightweight styling approach (no heavy CSS frameworks)
+Efficient handling of hover effects using DOM manipulation
+Maintained fast load times
+
+
+
