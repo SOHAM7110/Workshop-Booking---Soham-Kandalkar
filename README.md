@@ -16,6 +16,7 @@ npm (comes with Node.js)
 5. npm install
 6. npm start
 7. http://localhost:3000
+   
 ⚠️ Common Issues (Optional but helpful)
 If npm install fails → check Node version
 If port 3000 is busy → React will suggest another port
